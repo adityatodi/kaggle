@@ -3,7 +3,10 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten
 from sklearn.model_selection import train_test_split
 from keras.utils import np_utils
+import numpy as np
+import pickle
 from keras.optimizers import SGD
+import matplotlib.pyplot as plt
 #%%
 digit_df = pd.read_csv('digit-recognizer/train.csv')
 X_test = pd.read_csv('digit-recognizer/test.csv')

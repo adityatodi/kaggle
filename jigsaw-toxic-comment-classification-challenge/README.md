@@ -17,3 +17,20 @@ Completed this as a part of [Kaggle Competition](https://www.kaggle.com/competit
 ## Scores
 
 `Accuracy - 73.923%` in _Kaggle Competition_
+
+## Setup
+
+1. Install `requirement.txt` packages
+2. In `model.ipynb` uncomment codes for making input encoding.
+3. Models for each classifier are already present, code to train the model is present but commented out.
+
+## Predictions
+
+- Encode the comment-text by using tokenizer (_present in ipynb_)
+- Call the models to get the respective classification results for each model
+## Future Work
+
+1. Pipeline the end to end process
+2. Make single function to get predictions from all models
+3. Improve the accuracy by parameterizing the sentence representations also
+

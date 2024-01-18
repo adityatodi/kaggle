@@ -12,7 +12,7 @@ Completed this as a part of [Kaggle Competition](https://www.kaggle.com/competit
 ## Overview
 
 - Converted comment text to sentence embedding using HuggingFace's pre-trained model.
-- Trained 6 different models to classify whether a given comment is - Toxic, Severe `Toxic`, `Obscene`, `Insult`, `Threat` or `Identity Hate`
+- Trained 6 different models to classify whether a given comment is - `Toxic`, `Severe Toxic`, `Obscene`, `Insult`, `Threat` or `Identity Hate`
 
 ## Scores
 
